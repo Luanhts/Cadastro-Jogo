@@ -82,7 +82,7 @@ const remover = () => {
     }
 
     const indice = prompt("Qual indice deseja remover: ")
-    
+
     if(indice_val(indice)){
         jogos.splice(indice, 1)
         console.log("O jogo foi removido: ")
@@ -90,3 +90,6 @@ const remover = () => {
         console.log("Falha na remoção: ")
     }
 }
+
+
+module.exports = { criar, atualizar, listar, remover, prompt }
