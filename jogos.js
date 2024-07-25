@@ -92,4 +92,4 @@ const remover = () => {
 }
 
 
-module.exports = { criar, atualizar, listar, remover, prompt }
+module.exports = { criar, atualizar, listar, remover }
